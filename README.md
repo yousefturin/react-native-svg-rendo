@@ -11,7 +11,7 @@ npm install react-native-svg-rendo
 ## Usage
 
 ```js
-import SvgComponent from 'Rendo/SvgComponent';
+import SvgComponent from 'react-native-svg-rendo';
 
 const MyComponent = () => {
   return (
