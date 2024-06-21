@@ -1,18 +1,19 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-svg-rendo';
+import { StyleSheet, View } from 'react-native';
+import SvgComponent from 'react-native-svg-rendo';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <SvgComponent
+        svgKey="alphabet-a"
+        width={100}
+        height={100}
+        fill="red"
+        stroke="black"
+        strokeWidth={1.5}
+      />
     </View>
   );
 }
@@ -22,10 +23,5 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-  },
-  box: {
-    width: 60,
-    height: 60,
-    marginVertical: 20,
   },
 });

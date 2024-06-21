@@ -1,14 +1,4 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
-import { SvgXml } from 'react-native-svg';
-import { svgData } from './svgData';
-
-const DEFAULT_WIDTH = 24;
-const DEFAULT_HEIGHT = 24;
-const DEFAULT_FILL_COLOR = 'black';
-const DEFAULT_STROKE_COLOR = 'none';
-const DEFAULT_STROKE_WIDTH = 1.5;
-
 interface SvgComponentProps {
     svgKey: string;
     width?: number;
@@ -17,7 +7,6 @@ interface SvgComponentProps {
     stroke?: string;
     strokeWidth?: number;
 }
-
 /**
  * Renders an SVG component based on the provided `svgKey`.
  *
@@ -44,29 +33,6 @@ interface SvgComponentProps {
  * };
  * ```
  */
-const SvgComponent: React.FC<SvgComponentProps> = ({
-    svgKey,
-    width = DEFAULT_WIDTH,
-    height = DEFAULT_HEIGHT,
-    fill = DEFAULT_FILL_COLOR,
-    stroke = DEFAULT_STROKE_COLOR,
-    strokeWidth = DEFAULT_STROKE_WIDTH,
-}) => {
-    // Check if svgKey exists in svgData
-    if (!svgData[svgKey]) {
-        if (process.env.NODE_ENV !== 'production') {
-            throw new Error(`SVG with key "${svgKey}" not found.`);
-        } else {
-            return <SvgXml xml="<svg></svg>" width={width} height={height} testID="default-svg" />;
-        }
-    }
-
-    const svgMarkup = svgData[svgKey];
-    const svgProps = { width, height, fill, stroke, strokeWidth };
-
-    return (
-        <SvgXml xml={svgMarkup ?? null} {...svgProps} testID={`svg-component-${svgKey}`} />
-    );
-};
-
+declare const SvgComponent: React.FC<SvgComponentProps>;
 export default SvgComponent;
+//# sourceMappingURL=SvgComponent.d.ts.map
