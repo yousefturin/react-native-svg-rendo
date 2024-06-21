@@ -15,9 +15,16 @@ import SvgComponent from 'Rendo/SvgComponent';
 
 const MyComponent = () => {
   return (
-     <SvgComponent svgKey="alphabet-a" stroke="white" strokeWidth={3} width={32} height={32} fill="red" />
+    <SvgComponent
+      svgKey="alphabet-a"
+      stroke="white"
+      strokeWidth={3}
+      width={32}
+      height={32}
+      fill="red"
+    />
   );
- };
+};
 ```
 
 ## Contributing
@@ -30,59 +37,58 @@ MIT
 
 ---
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SVG Gallery</title>
-    <style>
-        body {
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SVG Gallery</title>
+<style>
+body {
             background-color: #252525;
             font-family: monospace;
         }
-
-        body h1 {
+body h1 {
             color: #fff;
             text-align: center;
             padding: 20px;
-        }
+}
 
-        table {
+table {
             border-collapse: collapse;
             background-color: #252525;
             font-family: monospace;
             margin: auto;
-        }
+}
 
-        tr th {
+tr th {
             color: #000;
             background-color: antiquewhite;
             text-align: center;
-        }
+}
 
-        th,
-        td {
+th,
+td {
             border: 1px solid #434343;
             padding: 8px;
             text-align: left;
             color: #fff;
-        }
+}
         td:first-child{
             text-align: center;
-        }
-        svg {
+}
+
+svg {
             max-width: 100px;
             max-height: 100px;
-        }
-    </style>
-    </head>
-    <body>
-     <h1>SVG Gallery</h1>
+}
+</style>
+</head>
+
+<body>
+    <h1>SVG Gallery</h1>
+
 <table id="svg-table">
         <thead>
             <tr>
