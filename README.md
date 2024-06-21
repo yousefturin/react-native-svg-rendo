@@ -39,7 +39,6 @@ MIT
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -54,20 +53,17 @@ body h1 {
             text-align: center;
             padding: 20px;
 }
-
 table {
             border-collapse: collapse;
             background-color: #252525;
             font-family: monospace;
             margin: auto;
 }
-
 tr th {
             color: #000;
             background-color: antiquewhite;
             text-align: center;
 }
-
 th,
 td {
             border: 1px solid #434343;
@@ -75,20 +71,17 @@ td {
             text-align: left;
             color: #fff;
 }
-        td:first-child{
+td:first-child{
             text-align: center;
 }
-
 svg {
             max-width: 100px;
             max-height: 100px;
 }
 </style>
 </head>
-
 <body>
-    <h1>SVG Gallery</h1>
-
+<h1>SVG Gallery</h1>
 <table id="svg-table">
         <thead>
             <tr>
@@ -1039,6 +1032,6 @@ svg {
                 </svg></svg></td><td>yuan-currency-money</td></tr><tr><td><svg width="30" height="30" fill="none" stroke="white" stroke-width="1.5"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M19 21H5V3" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg></svg></td><td>alphabet-l</td></tr></thead>
-    </table>
-    </body>
+</table>
+</body>
 </html>
