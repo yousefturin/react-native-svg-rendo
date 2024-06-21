@@ -1,6 +1,6 @@
 {
   "name": "react-native-svg-rendo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A package for rendering SVG images in React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
