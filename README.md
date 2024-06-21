@@ -1,6 +1,6 @@
 # react-native-svg-rendo
 
-A package for rendering SVG images in React Native
+A package for rendering SVG images in React Native based on [basicons](https://basicons.xyz/)
 
 ## Installation
 
