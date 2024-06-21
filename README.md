@@ -37,7 +37,10 @@ MIT
 
 ---
 
-<!DOCTYPE html>
+
+
+
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -82,6 +85,8 @@ svg {
 </head>
 <body>
 <h1>SVG Gallery</h1>
+
+
 <table id="svg-table">
         <thead>
             <tr>
