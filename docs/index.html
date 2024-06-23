@@ -7,26 +7,26 @@
     <title>SVG Gallery</title>
     <style>
         body {
-            background-color: #252525;
+            background-color: #f0f6fc;
             font-family: monospace;
         }
 
         body h1 {
-            color: #fff;
+            color: #050505;
             text-align: center;
             padding: 20px;
         }
 
         table {
             border-collapse: collapse;
-            background-color: #252525;
+            background-color: #f0f6fc;
             font-family: monospace;
             margin: auto;
         }
 
         tr th {
-            color: #000;
-            background-color: antiquewhite;
+            color: #050505;
+            background-color: #cfd4da;
             text-align: center;
         }
 
@@ -35,14 +35,23 @@
             border: 1px solid #434343;
             padding: 8px;
             text-align: left;
-            color: #fff;
+            color: #050505;
         }
-        td:first-child{
+
+        td:first-child {
             text-align: center;
         }
+
         svg {
             max-width: 100px;
             max-height: 100px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #cfd4da;
+            color: #050505;
         }
     </style>
     <script>
@@ -1316,7 +1325,7 @@
                 svgElement.setAttribute('width', '30');
                 svgElement.setAttribute('height', '30');
                 svgElement.setAttribute('fill', 'none');
-                svgElement.setAttribute('stroke', 'white');
+                svgElement.setAttribute('stroke', '#050505');
                 svgElement.setAttribute('stroke-width', '1.5');
                 svgElement.innerHTML = value;
                 cell1.appendChild(svgElement);
@@ -1339,6 +1348,9 @@
             </tr>
         </thead>
     </table>
+    <Footer>
+        <p>Made with ❤️ Yusefturin</p>
+    </Footer>
 </body>
 
 </html>
