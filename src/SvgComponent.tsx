@@ -5,8 +5,8 @@ import { svgData } from './svgData';
 
 const DEFAULT_WIDTH = 24;
 const DEFAULT_HEIGHT = 24;
-const DEFAULT_FILL_COLOR = 'black';
-const DEFAULT_STROKE_COLOR = 'none';
+const DEFAULT_FILL_COLOR = 'none';
+const DEFAULT_STROKE_COLOR = 'black';
 const DEFAULT_STROKE_WIDTH = 1.5;
 
 interface SvgComponentProps {
