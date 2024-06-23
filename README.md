@@ -46,8 +46,8 @@ MIT
 
 Stay tuned for additional SVG icons that will be added to the package in future updates.
 
+## For more information
 
+* You can take a look at the change log [here](https://github.com/yousefturin/react-native-svg-rendo/blob/main/CHANGELOG.md)
 
 ---
-
-
