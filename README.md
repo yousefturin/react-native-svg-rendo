@@ -27,6 +27,10 @@ const MyComponent = () => {
 };
 ```
 
+## Note
+
+Styling for the SvgComponent itself cannot be done directly. Instead, you need to pass styling properties like **stroke**, **strokeWidth**, **width**, **height**, and **fill** as props. Native styling support is under development and will allow the component to receive style props in future updates.
+
 ## Contributing
 
 See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
@@ -37,6 +41,12 @@ MIT
 
 ## SVG Gallery
 [Reference](https://yousefturin.github.io/react-native-svg-rendo/)
+
+## More SVG Icons Coming Soon
+
+Stay tuned for additional SVG icons that will be added to the package in future updates.
+
+
 
 ---
 
